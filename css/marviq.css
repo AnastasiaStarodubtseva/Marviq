@@ -1,0 +1,102 @@
+body {
+  background-color: #f5efef;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #27439a;
+}
+
+div.container {
+  margin-top: 70px;
+  max-width: 1200px;
+}
+
+.machine {
+  box-shadow: 1px 1px 1px 1px #dedede;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: 29px;
+}
+
+h2:before {
+  border-radius: 50%;
+  content: '';
+  display: block;
+  float: left;
+  height: 30px;
+  margin: 2px 13px 0 0;
+  width: 30px;
+  background: #dcdcdc;
+}
+
+.status-warning h2::before {
+  background-color: #f4a613;
+}
+
+.status-good h2::before {
+  background-color: #007b00;
+}
+
+.status-fatal h2::before {
+  background-color: #ed0f0f;
+}
+
+h3 {
+  text-align: center;
+  font-size: 33px;
+  padding-top: 50px;
+  margin-bottom: -35px;
+  font-weight: bold;
+}
+
+table {
+  border: 1px solid #141d39;
+  margin-top: 60px;
+  margin-left: 13px;
+}
+
+tr {
+  border: 1px solid #141d39;
+}
+
+td {
+  border: 1px solid #141d39;
+  padding: 12px 0px;
+  text-align: center;
+  font-size: 14px;
+}
+
+th {
+  padding: 4px;
+  text-align: center;
+  border-bottom: 1px solid #141d39;
+  border-right: 1px solid #141d39;
+  font-size: 15px;
+}
+
+.net-production,
+.percent-scrap,
+.machine-downtime {
+  font-size: 7rem;
+  font-weight: bold;
+}
