@@ -8,4 +8,4 @@ The most unexpected was the blocking of the server in Russia on which there were
 
 I enjoyed working on this task, and it was a good opportunity to learn more JavaScript and jQuery.
 
-[View live demo](marviq.anastasiastarodubtseva.com)
+[View live demo](https://marviq.anastasiastarodubtseva.com)
