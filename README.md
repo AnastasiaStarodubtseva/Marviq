@@ -7,3 +7,5 @@ I wrote most of the HTML in the JavaScript file. I did this because I don't know
 The most unexpected was the blocking of the server in Russia on which there were all data for writing this work. I moved the data to GitHub to work around the block.
 
 I enjoyed working on this task, and it was a good opportunity to learn more JavaScript and jQuery.
+
+[View live demo](marviq.anastasiastarodubtseva.com)
